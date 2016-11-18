@@ -4,11 +4,11 @@ php:
   - 5.6
 
 env:
-  CODECLIMATE_REPO_TOKEN: bdb7f2e80cc1164be069fa442eba4f6ef8b02cafbcfa39d13420e3120a5163ba
+  CODECLIMATE_REPO_TOKEN: 8f13c1308656adf182a9d643f09653a165a175654b1bd5cd5150341b8151b13b
 
 addons:
   code_climate:
-    repo_token: bdb7f2e80cc1164be069fa442eba4f6ef8b02cafbcfa39d13420e3120a5163ba
+    repo_token: 8f13c1308656adf182a9d643f09653a165a175654b1bd5cd5150341b8151b13b
 
 install:
   - composer install
